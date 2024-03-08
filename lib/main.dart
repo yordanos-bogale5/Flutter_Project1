@@ -1,5 +1,11 @@
+
+
+
 import 'package:big_project/identity.dart';
 import 'package:flutter/material.dart';
+
+import 'blood_type.dart';
+
 
 
 
@@ -16,7 +22,7 @@ class MyApp extends StatelessWidget {
     
     return  const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IdentityScreen(),
+      home: BloodType(),
       
     );
   }
